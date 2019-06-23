@@ -3,7 +3,7 @@ import json
 import re
 
 # Api-endpoint
-URL = "https://pos.api.here.com/positioning/v1/locate?app_id=ohiQjJyrYkY5oidVET0S&app_code=T-pIWWZu-4tqUu6aJnpywQ"
+URL = "https://pos.api.here.com/positioning/v1/locate?app_id=<app_id_here>&app_code=<app_code_here>"
 
 # Location given here
 data = open('output.txt', 'r')
