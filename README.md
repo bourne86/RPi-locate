@@ -1,4 +1,7 @@
 # My RPi-Zero-W tracker
+## Initial install
+Use 2019-04-08-raspbian-stretch-lite.img on RPi-Zero-W
+Also TL-WN722N adapter
 ## Setup
 sudo apt-get update </br>
 sudo apt-get upgrade </br>
