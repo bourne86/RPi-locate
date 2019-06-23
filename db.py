@@ -14,7 +14,7 @@ target = "/IP_Log/"              # the target folder
 targetfile = target + filename   # the target path and file name
 
 # Create a dropbox object using an API v2 key
-d = dropbox.Dropbox('6a3PWl8efcwAAAAAAAAXJ4FeQcIeqDrotu-jcQqnxMtfzgqKnblH0UNrRF4mHTsV')
+d = dropbox.Dropbox('<api key here>')
 
 # open the file and upload it
 with filepath.open("rb") as f:
