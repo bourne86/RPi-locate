@@ -18,4 +18,4 @@ sudo ldconfig </br>
 ## Then do this
 sudo airmon-ng start wlan1 </br>
 sudo airodump-ng-oui-update </br>
-sudo timeout 15s airodump-ng wlan1mon -w mydump -o csv </br>
+sudo timeout 15s airodump-ng wlan1mon --background -w mydump -o csv </br>
