@@ -16,5 +16,5 @@ make </br>
 sudo make install </br>
 sudo ldconfig </br>
 ## Then do this
-sudo airmon-ng start wlan1
+sudo airmon-ng start wlan1 </br>
 sudo airodump-ng wlan1mon -w mydump -o csv
