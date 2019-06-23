@@ -1,4 +1,5 @@
 # My RPi-Zero-W tracker
+## Setup
 sudo apt-get update </br>
 sudo apt-get upgrade </br>
 sudo apt-get install python-pip </br>
@@ -14,3 +15,5 @@ autoreconf -i </br>
 make </br>
 sudo make install </br>
 sudo ldconfig </br>
+## Then do this
+sudo airmon-ng start wlan1
