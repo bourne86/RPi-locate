@@ -12,5 +12,5 @@ cd aircrack-ng-1.5.2 </br>
 autoreconf -i </br>
 ./configure --with-experimental </br>
 make </br>
-make install </br>
+sudo make install </br>
 ldconfig </br>
