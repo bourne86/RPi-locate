@@ -13,4 +13,4 @@ autoreconf -i </br>
 ./configure --with-experimental </br>
 make </br>
 sudo make install </br>
-ldconfig </br>
+sudo ldconfig </br>
