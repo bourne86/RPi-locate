@@ -1,6 +1,6 @@
 # My RPi-Zero-W tracker
 ## Initial install
-Use 2019-04-08-raspbian-stretch-lite.img on RPi-Zero-W </br>
+Use 2019-06-20-raspbian-buster-lite.img on RPi-Zero-W </br>
 Also TL-WN722N adapter </br>
 ## Setup
 sudo apt-get update </br>
