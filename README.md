@@ -6,7 +6,7 @@ Also TL-WN722N adapter </br>
 sudo apt-get update </br>
 sudo apt-get upgrade </br>
 sudo apt-get install python-pip </br>
-pip install requests </br>
+sudo pip install requests </br>
 pip install dropbox </br>
 pip install pathlib </br>
 sudo apt-get install git </br>
