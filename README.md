@@ -24,3 +24,7 @@ sudo airodump-ng-oui-update </br>
 ## Then do this
 sudo airmon-ng start wlan1 </br>
 sudo timeout 10s airodump-ng wlan1mon --background 1 -w mydump -o csv </br>
+## Edit Cron
+sudo crontab -e
+*/1 * * * * /home/pi/screen.py
+*/1 * * * * /home/pi/edit.py
