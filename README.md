@@ -21,9 +21,9 @@ sudo make install </br>
 sudo ldconfig </br>
 ## Do this once
 sudo airodump-ng-oui-update </br>
-## Then do this
+## Add to startup
+sudo nano /etc/rc.local </br>
 sudo airmon-ng start wlan1 </br>
-sudo timeout 10s airodump-ng wlan1mon --background 1 -w mydump -o csv </br>
 ## Edit Cron
 sudo crontab -e </br>
 */1 * * * * /home/pi/screen.py </br>
