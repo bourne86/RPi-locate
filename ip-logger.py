@@ -22,6 +22,6 @@ minute = time.strftime("%M")
 #print minute[1]
 
 if minute == "0":
-    d = dropbox.Dropbox('6a3PWl8efcwAAAAAAAAXJ4FeQcIeqDrotu-jcQqnxMtfzgqKnblH0UNrRF4mHTsV')
+    d = dropbox.Dropbox('<<<Dropbox key>>>')
     with open("/home/pi/log-rpi-zero-w.txt", "rb") as f2:
         d.files_upload(f2.read(), '/IP_Log/log-rpi-zero-w.txt', mode=dropbox.files.WriteMode("overwrite"))
