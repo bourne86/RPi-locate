@@ -7,7 +7,7 @@ sudo apt-get update </br>
 sudo apt-get upgrade </br>
 sudo apt-get install python-pip </br>
 sudo pip install requests </br>
-pip install dropbox </br>
+sudo pip install dropbox </br>
 pip install pathlib </br>
 sudo apt-get install git </br>
 sudo apt-get install libssl-dev autoconf automake libtool libnl-3-dev libnl-genl-3-dev libssl-dev libsqlite3-dev libpcre3-dev shtool libpcap-dev screen </br>
