@@ -8,7 +8,7 @@ sudo apt-get upgrade </br>
 sudo apt-get install python-pip </br>
 sudo pip install requests </br>
 sudo pip install dropbox </br>
-pip install pathlib </br>
+sudo pip install pathlib </br>
 sudo apt-get install git </br>
 sudo apt-get install libssl-dev autoconf automake libtool libnl-3-dev libnl-genl-3-dev libssl-dev libsqlite3-dev libpcre3-dev shtool libpcap-dev screen </br>
 wget https://download.aircrack-ng.org/aircrack-ng-1.5.2.tar.gz </br>
