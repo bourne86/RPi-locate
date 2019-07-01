@@ -26,5 +26,4 @@ sudo nano /etc/rc.local </br>
 sudo airmon-ng start wlan1 </br>
 ## Edit Cron
 sudo crontab -e </br>
-*/1 * * * * /home/pi/screen.py </br>
-*/1 * * * * /home/pi/edit.py </br>
+*/1 * * * * /home/pi/ip-logger.py </br>
