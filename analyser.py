@@ -42,7 +42,7 @@ os.remove("/home/pi/_temp.txt")
 os.remove('/home/pi/_scan.txt')
 
 # Api-endpoint
-URL = "https://pos.api.here.com/positioning/v1/locate?app_id=ohiQjJyrYkY5oidVET0S&app_code=T-pIWWZu-4tqUu6aJnpywQ"
+URL = "https://pos.api.here.com/positioning/v1/locate?app_id=<<<>>>&app_code=<<<>>>"
 
 # Location given here
 data = open('/home/pi/wifi.txt', 'r')
@@ -71,7 +71,7 @@ text_file3.close()
 
 os.remove('/home/pi/wifi.txt')
 
-d = dropbox.Dropbox('6a3PWl8efcwAAAAAAAAXJ4FeQcIeqDrotu-jcQqnxMtfzgqKnblH0UNrRF4mHTsV')
+d = dropbox.Dropbox('<<<>>>')
 with open("/home/pi/locations.txt", "rb") as f2:
     d.files_upload(f2.read(), '/IP_Log/locations.txt', mode=dropbox.files.WriteMode("overwrite"))
 
