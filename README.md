@@ -1,7 +1,6 @@
 # My RPi-Zero-W tracker
 ## Initial install
 Use 2019-06-20-raspbian-buster-lite.img on RPi-Zero-W https://downloads.raspberrypi.org/raspbian_lite_latest</br>
-Also TL-WN722N adapter </br>
 ## Setup
 sudo apt-get update </br>
 sudo apt-get upgrade </br>
